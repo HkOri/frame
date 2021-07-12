@@ -1,0 +1,8 @@
+{
+	"editor.fontWeight": "500",
+	"prettier.configPath": ".prettierrc.js",
+	// 不要格式化html文件
+	"vetur.format.defaultFormatter.html": "none",
+	// "typescript.suggestionActions.enabled": false,
+	"javascript.suggestionActions.enabled": false
+}
