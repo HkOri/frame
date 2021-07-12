@@ -1,0 +1,7 @@
+export default {
+    TEST_CHANGE_MSG: 'TEST_CHANGE_MSG', // 全大写，一种action，一种业务
+    TODO_ADD_TODO: 'TODO_ADD_TODO',
+    TODO_DEL_TODO: 'TODO_DEL_TODO',
+    TODO_EDIT_TODO: 'TODO_EDIT_TODO',
+    MUSIC_UPDATE: 'MUSIC_UPDATE',
+}
