@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="hkori">
+    <meta name="date" content="">
+    <meta name="description" content="">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            height: 5px;
+            background-color: grey;
+            font-size: 0;
+        }
+        span {
+            display: inline-block;
+            height: 100%; /* 这种情况下span不会在div里面 */
+            width: 5px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span></span>
+        <span></span>
+    </div>
+</body>
+</html>
