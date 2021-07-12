@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		// "target": "es2017",
+		"experimentalDecorators": true,
+		// "allowSyntheticDefaultImports": false // 运行
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	},
+	"include": ["**/*"],
+	"exclude": ["node_modules", "dist"]
+}
+/* https://zhuanlan.zhihu.com/p/55644953 */
