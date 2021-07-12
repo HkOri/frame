@@ -1,0 +1,86 @@
+body,
+html,
+p,
+span,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+input,
+form,
+textarea,
+select,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+div,
+a,
+img,
+table,
+td {
+	padding: 0;
+	margin: 0;
+}
+img {
+	border: none;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol {
+	list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong,
+b {
+	font-weight: normal;
+}
+i,
+em {
+	font-style: normal;
+}
+.clearfix:after {
+	content: '';
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	display: block;
+	visibility: hidden;
+}
+.clearfix {
+	zoom: 1;
+}
+form button,
+form input,
+form select,
+form textarea {
+	font-family: inherit;
+	font-size: 100%;
+}
+/* 
+    跨浏览器的form元素对于不同的挂件使用不同的盒子约束规则
+    这里设置box-sizing以确保在给form元素设定宽度和高度时可以有统一的体验
+*/
+form,
+button,
+input,
+select,
+textarea {
+	box-sizing: border-box;
+}
+textarea {
+	resize: none;
+	overflow: auto; /* 避免ie浏览器在不需要滚动条的时候显示滚动条 */
+}
